@@ -1,0 +1,21 @@
+# We set here the type of database we are going to use. In this case, we are going to use MySQL with default username / password.
+
+default: &default
+  adapter: mysql2
+  username: root
+  password: root
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: vehicles
+
+
+test:
+  <<: *default
+  database: vehicles
+
+production:
+  <<: *default
+  database: vehicles
