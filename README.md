@@ -15,7 +15,7 @@ The project is able to register vehicles, collect their locations in real time a
 
 
 # open command line and cd to the project directory
-$ cd vehicles
+$ cd door2door-Code-Challenge-master
 
 
 # install rails
