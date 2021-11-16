@@ -23,7 +23,7 @@ $ gem install rails
 
 
 # install the requirements
-$ install bundler
+$ gem install bundler
 $ bundle install
 
 
