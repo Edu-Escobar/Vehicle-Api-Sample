@@ -26,6 +26,7 @@ $ gem install rails
 $ gem install bundler
 $ bundle install
 
+# in phpMyAdmin (http://localhost/phpmyadmin), create a database called 'vehicles', UTF8 General
 
 # once the bundle is installed and XAMPP has started running Apache and MySQL we can start our rails project
 $ rails db:migrate:up VERSION=20211113203640    # Numbers that appear in vehicles/db/migrate create_vehicles.rb file
