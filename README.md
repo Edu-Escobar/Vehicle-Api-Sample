@@ -1,4 +1,4 @@
-# Backend code challenge
+# Vehicle Api Sample
 
 For the creation of this project I used Ruby on Rails, an open-source framework used to build Rest API. The web server was built using XAMPP, MySQL and phpMyAdmin.
 
